@@ -3,9 +3,9 @@ import pymongo
 import urllib.parse
 
 y = []
-mongodb_dbname2 = "lifeeazydatabase"
+mongodb_dbname2 = "lifeeazydb_prod"
 username = urllib.parse.quote_plus('devops_admin')
-password = urllib.parse.quote_plus('Devops@1234')
+password = urllib.parse.quote_plus('Devj0019ej')
 myclient2 = MongoClient('mongodb://%s:%s@3.108.11.120:27017' % (username, password))
 mydb2 = myclient2[mongodb_dbname2]
 migration = mydb2.list_collection_names()
