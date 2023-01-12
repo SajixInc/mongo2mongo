@@ -7,7 +7,7 @@
 This code for clone or backup the data from one mongodb to another mongodb 
 
 ## Running Mongodb 2 mongodb
-To run this, you have follow below steps
+To run this, you have to follow the below steps
 - first, clone the repositry
 - Ensure your in mongo2mongo folder, if not change directory to mongo2mongo folder
 - Then run this command in terminal using command `python main.py`
