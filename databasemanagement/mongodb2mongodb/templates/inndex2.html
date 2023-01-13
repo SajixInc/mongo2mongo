@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        #div1{
+
+   height: 400px;
+   width: 100%;
+    }
+
+    #div2{
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 200px;
+    }
+
+    #div3{
+      float:center;
+      padding-left: 350px;
+    }
+
+    #div4{
+      height:100%;
+      width:100%;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+      background-color:white;
+    }
+  </style>
+</head>
+<body>
+<center>
+    <div class="container-fluid" id="div1" style="background-color:#333399;">
+    <h1 style="text-align:center;"><b>Migrate MongoDB to MongoDB collections</b></h1>
+    <div class="panel panel-primary">
+      <div class="panel-heading" style="text-align:center;"><h2><b>MongoDB to MongoDB</b></h2></div>
+      <div class="panel-body" style="" id="div2">
+    <form method="post" >
+        {% csrf_token %}
+           <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                   FromDatabase:<input type="text" name="from_database">
+               </div>
+            </div>
+         <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                     Username:<input type="text" name ="Username" >
+               </div>
+            </div>
+          <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                   Password:<input type="text" name ="Password" ><br><br>
+               </div>
+            </div>
+        <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                  to_database:<input type="text" name="to_database" ><br><br>
+               </div>
+            </div>
+
+       <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                    to_host:<input type="text" name="to_host" ><br><br>
+               </div>
+            </div>
+        <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                  ip address:<input type="text" name="ipaddress" ><br><br>
+               </div>
+            </div>
+           <div id="div3">
+               <input type="submit" value="submit" />
+            </div>
+
+
+    </form>
+</center>
+</body>
+</html>

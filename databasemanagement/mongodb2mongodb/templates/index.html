@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    #div1{
+
+   height: 400px;
+   width: 100%;
+
+
+    }
+
+    #div2{
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 200px;
+    }
+
+    #div3{
+      float:center;
+      padding-left: 350px;
+    }
+
+    #div4{
+      height:100%;
+      width:100%;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+      background-color:white;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="container-fluid" id="div1" style="background-color:#333399;">
+    <h1 style="text-align:center;"><b>Migrate MongoDB to MongoDB collections</b></h1>
+    <div class="panel panel-primary">
+      <div class="panel-heading" style="text-align:center;"><h2><b>MongoDB to MongoDB</b></h2></div>
+      <div class="panel-body" style="" id="div2">
+        <form class="form-horizontal" method="post">
+             {% csrf_token %}
+            <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                  <h5><b>Username:</b></h5><input type="text" class="form-control" id="muser" name="muser">
+               </div>
+            </div>
+
+
+            <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                <h5><b>Password:</b></h5><input type="text" class="form-control" id="mpass" name="mpass">
+              </div>
+            </div>
+
+
+
+            <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                <h5><b>from_database:</b></h5><input type="text" class="form-control" id="from_db" name="mpass">
+              </div>
+            </div>
+             <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                <h5><b>ip address:</b></h5><input type="text" class="form-control" id="ip_address" name="mpass">
+              </div>
+            </div>
+            <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                <h5><b>to_host:</b></h5><input type="text" class="form-control" id="to_host" name="mpass">
+              </div>
+            </div>
+            <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                <h5><b>to_database:</b></h5><input type="text" class="form-control" id="to_database" name="mpass">
+              </div>
+            </div><br>
+
+            <div id="div3">
+              <button type="submit" class="btn btn-success btn-lg">Migrate</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+    </form>
+</body>
+</html>
