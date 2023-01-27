@@ -1,4 +1,4 @@
-<img align="right" width="33%" src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png">
+<img align="right" width="33%" src="https://drive.google.com/file/d/1JNCWe8y35MpsU-_GQ5EU56ivAtbGKlu2/view?usp=sharing">
 
 # Mongodb to Mongodb Converter
  
