@@ -22,7 +22,7 @@ To run this, you have to follow the below steps
 - first, clone the repositry
 - Ensure you are in mongo2mongo folder, if not please change directory to mongo2mongo folder
 - Then run this command in terminal `python manage.py runserver`
-- click on the local host
+- click on the local host (http://127.0.0.1:8000/)
 
 ## For developers
 Run the given file and enter the requied values or fields
