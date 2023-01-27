@@ -1,10 +1,19 @@
 # Mongodb to Mongodb Converter
 
+
+## About
+Here we can backup the data from one mongodb to another mongodb
+
+## Summary
+ some times we have the data in server. in that 
+ time it is very useful to take the data from server 
+ database into local database
+
+
+
 ## Requirements 
 - mogodb - pip install pymongo
 
-## About
-This code for clone or backup the data from one mongodb to another mongodb 
 
 ## Running Mongodb 2 mongodb
 To run this, you have to follow the below steps
