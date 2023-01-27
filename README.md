@@ -4,7 +4,7 @@
  
 
 ## About
-Here we can clone the data from one mongodb to another mongodb
+Here we can backup the data from (server/localdb) one mongodb to another mongodb
 
 ## Summary
  some times we have the data in server, but not in the local <br />in that 
