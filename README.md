@@ -1,6 +1,8 @@
 # Mongodb to Mongodb Converter
 
 
+<img src="relative/path/in/repository/to/image.svg" width="128"/>
+
 ## About
 Here we can backup the data from one mongodb to another mongodb
 
@@ -12,7 +14,9 @@ Here we can backup the data from one mongodb to another mongodb
 
 
 ## Requirements 
-- mogodb - pip install pymongo
+- pip install pymongo
+- pip install django
+- pip install djongo
 
 
 ## Running Mongodb 2 mongodb
