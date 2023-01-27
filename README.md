@@ -1,4 +1,4 @@
-# Mongodb to Mongodb
+# Mongodb to Mongodb Converter
 
 ## Requirements 
 - mogodb - pip install pymongo
