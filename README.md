@@ -1,7 +1,7 @@
 # Mongodb to Mongodb Converter
 
 
-<img src="relative/path/in/repository/to/image.svg" width="128"/>
+<img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png">
 
 ## About
 Here we can backup the data from one mongodb to another mongodb
