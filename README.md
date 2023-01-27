@@ -4,7 +4,7 @@
  
 
 ## About
-Here we can backup the data from one mongodb to another mongodb
+Here we can clone the data from one mongodb to another mongodb
 
 ## Summary
  some times we have the data in server, but not in the local <br />in that 
@@ -26,7 +26,7 @@ To run this, you have to follow the below steps
 - click on the local host (http://127.0.0.1:8000/)
 
 ## For developers
-Run the given file and enter the requied values or fields
+developers can modify the file (views.py)
 
 <p align="center">
 <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png" margin_left="100"/>
