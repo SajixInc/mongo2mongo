@@ -1,8 +1,6 @@
 # Mongodb to Mongodb Converter
 
 
-<img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png">
-
 ## About
 Here we can backup the data from one mongodb to another mongodb
 
@@ -29,4 +27,4 @@ To run this, you have to follow the below steps
 ## For developers
 Run the given file and enter the requied values or fields
 
-## Versioning
+<img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png" margin_left="100"/>
