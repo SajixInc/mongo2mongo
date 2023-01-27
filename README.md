@@ -1,6 +1,6 @@
 # Mongodb to Mongodb Converter
 
-<p align="center">
+<p top="20">
 <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png" margin_left="100"/>
  </p>
  
