@@ -7,10 +7,9 @@
 Here we can backup the data from one mongodb to another mongodb
 
 ## Summary
- some times we have the data in server. in that 
+ some times we have the data in server, but not in the local in that 
  time it is very useful to take the data from server 
  database into local database
-
 
 
 ## Requirements 
