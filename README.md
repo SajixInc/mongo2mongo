@@ -27,6 +27,6 @@ To run this, you have to follow the below steps
 ## For developers
 Run the given file and enter the requied values or fields
 
-<p align="left">
+<p align="center">
 <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png" margin_left="100"/>
  </p>
