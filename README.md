@@ -2,7 +2,7 @@
 
 <img  width="15%" src = "https://user-images.githubusercontent.com/92718918/225281321-22416455-e553-4981-a355-b59d2750331c.jpg">
 
-<h1 align="center">Mongodb to Mongodb Converter</h1>
+<h1 align="center">Mongodb to Mongodb <br> Data transfer</h1>
  
 ## About
 To convert data from one MongoDB database to another using Python, you can use the PyMongo library.
