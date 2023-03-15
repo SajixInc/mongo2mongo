@@ -3,7 +3,7 @@
 # Mongodb to Mongodb Converter
  
 ## About
-Here we can backup the data from (server/localdb) one mongodb to another mongodb
+To convert data from one MongoDB database to another using Python, you can use the PyMongo library.
 
 ## Summary
  some times we have the data in server, but not in the local <br />in that 
