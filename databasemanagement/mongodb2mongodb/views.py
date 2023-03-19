@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from pymongo import MongoClient
+from .mian1 import dpppp
 from .mian import dddd
 #
 # if __name__ == '__main__':
@@ -24,3 +25,21 @@ def mongo(request):
     else:
         print('Fail')
     return render(request,'inndex2.html')
+
+
+
+
+
+def mongo2(request):
+    if request.method == 'POST':
+        to_database = request.POST.get('to_database')
+        print(to_database)
+        Username = request.POST.get('Username')
+        Password = request.POST.get('Password')
+        from_database = request.POST.get('from_database')
+        to_host = request.POST.get('to_host')
+        ipaddress = request.POST.get('ipaddress')
+        dpppp(from_database, Username, Password, to_database, to_host, ipaddress)
+    else:
+        print('Fail')
+    return render(request,'inndex3.html')

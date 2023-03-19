@@ -1,8 +1,9 @@
 from django.urls import path,include
 
-from .views import mongo
+from .views import mongo,mongo2
 
 urlpatterns = [
-    path('',mongo)
+    path('staggingtolocal',mongo),
+    path('localtostagging',mongo2),
 
 ]
