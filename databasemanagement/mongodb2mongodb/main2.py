@@ -2,12 +2,13 @@ from pymongo import MongoClient
 import pymongo
 import urllib.parse
 
-def localtostagging(from_database,Username,Password,to_database,to_host,ipaddress):
+def staggingtoprod(from_database,Username,Password,to_database,ipaddress):
     try:
         y = []
         mongodb_dbname1 = from_database
-        mongodb_host = to_host
-        myclient1 = pymongo.MongoClient(mongodb_host)
+        username = urllib.parse.quote_plus(Username)
+        password = urllib.parse.quote_plus(Password)
+        myclient1 = MongoClient('mongodb://%s:%s@%s:27017' % (username, password, ipaddress))
         mydb1 = myclient1[mongodb_dbname1]
         migration = mydb1.list_collection_names()
         print(myclient1)
