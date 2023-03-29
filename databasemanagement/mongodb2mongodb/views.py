@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from pymongo import MongoClient
-from .mian1 import localtostagging
-from .main2 import staggingtoprod
-from .mian import dddd
+from .localtoserver import localtostagging
+from .servertoserver import staggingtoprod
+from .servertolocal import dddd
 #
 # if __name__ == '__main__':
 #     import databasemanagement.main
