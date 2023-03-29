@@ -242,35 +242,35 @@ margin-right:20%;
 		<form method="post" >
         {% csrf_token %}
 
+       <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                    To Host<small> (local host)</small>:<input type="text" name="to_host" ><br><br>
+               </div>
+            </div>
+
          <div class="col-md-6 form-group">
               <div class="col-sm-8">
-                     Username:<input type="text" name ="Username" >
+                     User Name<small> (server username)</small>:<input type="text" name ="Username" >
                </div>
             </div>
               <div class="col-md-6 form-group">
               <div class="col-sm-8">
-                   To Database:<input type="text" name="to_database">
+                  From Database<small> (localdb)</small>:<input type="text" name="From_database">
                </div>
             </div>
           <div class="col-md-6 form-group">
               <div class="col-sm-8">
-                   Password:<input type="text" name ="Password" ><br><br>
+                   Password<small> (server Password)</small>:<input type="text" name ="Password" ><br><br>
                </div>
             </div>
         <div class="col-md-6 form-group">
               <div class="col-sm-8">
-                  From Database:<input type="text" name="from_database" ><br><br>
+                  To Database<small> (serverdb)</small>:<input type="text" name="To_database" ><br><br>
                </div>
             </div>
              <div class="col-md-6 form-group">
               <div class="col-sm-8">
-                  Ip Address:<input type="text" name="ipaddress" ><br><br>
-               </div>
-            </div>
-
-       <div class="col-md-6 form-group">
-              <div class="col-sm-8">
-                    To Host:<input type="text" name="to_host" ><br><br>
+                  Ip Address<small> (server ipaddress)</small>:<input type="text" name="ipaddress" ><br><br>
                </div>
             </div>
         <button type="submit" >Submit</button>
