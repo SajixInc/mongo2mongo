@@ -242,11 +242,6 @@ margin-right:20%;
 		<form method="post" >
         {% csrf_token %}
 
-       <div class="col-md-6 form-group">
-              <div class="col-sm-8">
-                    To Host<small> (local host)</small>:<input type="text" name="to_host" ><br><br>
-               </div>
-            </div>
 
          <div class="col-md-6 form-group">
               <div class="col-sm-8">
@@ -271,6 +266,11 @@ margin-right:20%;
              <div class="col-md-6 form-group">
               <div class="col-sm-8">
                   Ip Address<small> (server ipaddress)</small>:<input type="text" name="ipaddress" ><br><br>
+               </div>
+            </div>
+            <div class="col-md-6 form-group">
+              <div class="col-sm-8">
+                    From Host<small> (local host)</small>:<input type="text" name="to_host" ><br><br>
                </div>
             </div>
         <button type="submit" >Submit</button>
