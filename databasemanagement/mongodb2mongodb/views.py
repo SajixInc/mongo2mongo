@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from pymongo import MongoClient
-from .localtoserver import localtostagging
+from .localtoserver import localtoserver
 from .servertoserver import staggingtoprod
 from .servertolocal import dddd
 #
@@ -40,7 +40,7 @@ def mongo2(request):
         from_database = request.POST.get('from_database')
         to_host = request.POST.get('to_host')
         ipaddress = request.POST.get('ipaddress')
-        localtostagging(from_database, Username, Password, to_database, to_host, ipaddress)
+        localtoserver(from_database, Username, Password, to_database, to_host, ipaddress)
     else:
         print('Fail')
     return render(request,'inndex3.html')
